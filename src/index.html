@@ -9,10 +9,29 @@
     <title>Lance Negócios</title>
 </head>
 <body>
+    <!-- 
+    <div class="grid">
+        <div class="grid-1"><div class="base"></div></div>
+        <div class="grid-1"><div class="base"></div></div>
+        <div class="grid-1"><div class="base"></div></div>
+        <div class="grid-1"><div class="base"></div></div>
+        <div class="grid-1"><div class="base"></div></div>
+        <div class="grid-1"><div class="base"></div></div>
+        <div class="grid-1"><div class="base"></div></div>
+        <div class="grid-1"><div class="base"></div></div>
+        <div class="grid-1"><div class="base"></div></div>
+        <div class="grid-1"><div class="base"></div></div>
+        <div class="grid-1"><div class="base"></div></div>
+        <div class="grid-1"><div class="base"></div></div>
+        
+    </div>
+-->
+
+
     <div id="root">
         <header>
             <div class="container">
-                <h2 class="logo">
+                <h2 class="logo grid-1">
                     <img src="./assets/images/logo-lance.png" alt="Lance Negócios">
                 </h2>
                 <nav class="nav">
@@ -20,14 +39,14 @@
                     <a class="nav__item" href="#produtos">Produtos</a>
                     <a class="nav__item" href="#como-funciona">Como funciona</a>
                 </nav>
-                <div class="hero">
+                <div class="hero grid-12">
                     <h1>Veja como acelerar a criação do seu negócio</h1>
                 </div>
             </div>
         </header>
         <section id="sobre">
             <div class="container">
-                <article>
+                <article class="grid-12">
                     <h1>Sobre nós</h1>
                     <p>Somos uma equipe especializada na criação visual de marcas, trabalhamos com as principais ferramentas profissionais do mercado para você iniciar um negócio rapidamente.</p>
                     <p>Veja como funciona nosso processo e nossos produtos disponíveis para nos contratar. E veja a mágica que faremos em poucos dias de trabalho, para você lançar seu negócio em alto estilo.</p>
@@ -36,10 +55,10 @@
         </section>
         <section id="produtos">
             <div class="container">
-                <article>
+                <article class="grid-12">
                     <h1>Catálogo</h1>
                     <div class="vitrine">
-                        <div class="vitrine__item">
+                        <div class="vitrine__item grid-12">
                             <div class="vitrine__image">
                                 <img src="./assets/images/produto-logo.png" alt="Criação de Logo">
                             </div>
@@ -47,7 +66,7 @@
                             <p class="vitrine__desc">Design profissional de logos para você começar</p>
                             <a href="#produto-logo" class="vitrine__button">Tenho interresse</a>
                         </div>
-                        <div class="vitrine__item">
+                        <div class="vitrine__item grid-12">
                             <div class="vitrine__image">
                                 <img src="./assets/images/produto-timbrado.png" alt="Papel Timbrado">
                             </div>
@@ -57,7 +76,7 @@
                             </p>
                             <a href="#produto-timbrado" class="vitrine__button">Tenho interesse</a>
                         </div>
-                        <div class="vitrine__item">
+                        <div class="vitrine__item grid-12">
                             <div class="vitrine__image">
                                 <img src="./assets/images/produto-cartao.png" alt="Cartão de visita">
                             </div>
@@ -67,7 +86,7 @@
                             </p>
                             <a href="#produto-cartao" class="vitrine__button">Tenho interesse</a>
                         </div>
-                        <div class="vitrine__item">
+                        <div class="vitrine__item grid-12">
                             <div class="vitrine__image">
                                 <img src="./assets/images/produto-site.png" alt="Site institucional">
                             </div>
@@ -84,26 +103,26 @@
 
         <section id="como-funciona">
             <div class="container">
-                <article>
+                <article class="grid-12">
                     <h1>Como funciona</h1>
                     <div class="steps">
-                        <div class="steps__item">
+                        <div class="steps__item grid-12">
                             <img src="./assets/images/escolha.png" alt="Escolha seu lance">
                             <h3>Escolha seu lance</h3>
                         </div>
-                        <div class="steps__item">
+                        <div class="steps__item grid-12">
                             <img src="./assets/images/lance.png" alt="Pague o item escolhido">
                             <h3>Lance seu pagamento</h3>
                         </div>
-                        <div class="steps__item">
+                        <div class="steps__item grid-12">
                             <img src="./assets/images/trabalhamos.png" alt="Trabalhamos">
                             <h3>Após a confirmação do pagamento, iniciamos os trabalhos.</h3>
                         </div>
-                        <div class="steps__item">
+                        <div class="steps__item grid-12">
                             <img src="./assets/images/voce-aprova.png" alt="Você aprova">
                             <h3>Em poucos dias você recebará o trabalho pronto para avaliar.</h3>
                         </div>
-                        <div class="steps__item">
+                        <div class="steps__item grid-12">
                             <img src="./assets/images/lancamos.png" alt="Lance seu negócio">
                             <h3>Se estiver tudo ok para você, você lança seu negócio <span>=)</span></h3>
                         </div>
@@ -116,7 +135,7 @@
         <section id="forms">
             <div class="separa"></div>    
             <div class="form-container">
-                <article >
+                <article class="grid-12">
                     <div class="forms__content">
                         <div class="section-heading">
                             <h1>Ficou interessado?</h1>
@@ -132,7 +151,7 @@
                             </form>     
                         </div>
                     </div>
-                    <div class="animation"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <div class="forms__animation"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                          <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_slipwrv0.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></div>
                      </div>
                 </article>
@@ -141,7 +160,7 @@
 
         <footer>
             <div class="container">
-                <p>&copy; Todos os direitos reservados. <br>
+                <p class="grid-12">&copy; Todos os direitos reservados. <br>
                 <small>Desenvolvido por <a href="https://github.com/Bee-ah">Beatriz Leite</a>.</small></p>
             </div>
         </footer>

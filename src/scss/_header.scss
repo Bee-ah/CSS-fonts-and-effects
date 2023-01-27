@@ -9,16 +9,23 @@ header .container {
         align-items: flex-end;
         background-image: url('../assets/images/banner-lance-me.png');
         background-repeat: no-repeat;
-        background-position: top center;
+        //background-position: top center;
+        background-position: top right 52%;
         height: 45rem;
         display: flex;
         padding-bottom: 4rem;
         width: 100%;
+        overflow: hidden;
+        @media(max-width:480px){
+            height:47rem;
+           
+        }
 
         h1 {
             padding: 1rem 0 0;
             text-align: center;
             width: 100%;
+            
         }
     }
 
